@@ -1,0 +1,49 @@
+Title  'NewQuiz'
+Team  'Normans Badge Fiddlers'
+Team  'Bot'
+Team  'TV Orange'
+Team  'The Toilet Doors (Jim Morrison'
+Segment
+  Image  ''
+  Name  'Main Title'
+  Type  Title
+  Score  'Normans Badge Fiddlers' 0.000000
+  Score  'Bot' 0.000000
+  Score  'TV Orange' 0.000000
+  Score  'The Toilet Doors (Jim Morrison' 0.000000
+  SubText  '2015'
+  TitleText  'ISIS Student Meeting Quiz'
+End
+Segment
+  Image  ''
+  Name  'History'
+  Type  Question
+  Score  'Normans Badge Fiddlers' 2.000000
+  Score  'Bot' 4.000000
+  Score  'TV Orange' 5.000000
+  Score  'The Toilet Doors (Jim Morrison' 6.000000
+  SubText  ''
+  TitleText  'History'
+End
+Segment
+  Image  ''
+  Name  'Geography'
+  Type  Question
+  Score  'Normans Badge Fiddlers' 4.000000
+  Score  'Bot' 5.000000
+  Score  'TV Orange' 4.000000
+  Score  'The Toilet Doors (Jim Morrison' 5.000000
+  SubText  ''
+  TitleText  'Geoegt'
+End
+Segment
+  Image  ''
+  Name  'Score 1'
+  Type  Score
+  Score  'Normans Badge Fiddlers' 0.000000
+  Score  'Bot' 0.000000
+  Score  'TV Orange' 0.000000
+  Score  'The Toilet Doors (Jim Morrison' 0.000000
+  SubText  ''
+  TitleText  'Score 1'
+End

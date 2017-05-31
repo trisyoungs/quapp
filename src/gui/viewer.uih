@@ -1,0 +1,109 @@
+/*
+	*** OpenGL Viewer Widget (subclassing QGLWidget)
+	*** src/gui/viewer.uih
+	Copyright T. Youngs 2013
+
+	This file is part of uChroma.
+
+	uChroma is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	uChroma is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with uChroma.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef QUAPP_VIEWER_H
+#define QUAPP_VIEWER_H
+
+#include <QtOpenGL/QGLWidget>
+#include <QtCore/QObject>
+#include "render/primitive.h"
+#include "render/displayobject.h"
+#include "templates/list.h"
+#include "templates/reflist.h"
+
+// Forward Declarations
+class ColourScale;
+class QuappWindow;
+class Collection;
+class DisplayDataSet;
+class ViewPane;
+
+// Base rendering widget
+class Viewer : public QGLWidget
+{
+	Q_OBJECT
+
+	public:
+	// Constructor / Destructor
+	Viewer(QWidget *parent);
+	~Viewer();
+
+
+	/*
+	 * Link to UChroma
+	 */
+	private:
+	// QuappWindow pointer
+	QuappWindow* quapp_;
+	
+	public:
+	// Set QuappWindow pointer
+	void setQuapp(QuappWindow* ptr);
+
+
+	/*
+	 * Character / Setup
+	 * (in viewer_funcs.cpp)
+	 */
+	private:
+	// GLExtension pointer stack
+	List<GLExtensions> extensionsStack_;
+	// Width and height of the context
+	GLsizei contextWidth_, contextHeight_;
+	// Aspect ratio of context
+	double aspectRatio_;
+	// Flag to indicate whether we may draw to the context
+	bool valid_;
+	// Flag indicating if we are currently drawing to this context
+	bool drawing_;
+	// Flag specifying whether we are currently rendering offscreen
+	bool renderingOffScreen_; 
+	// String containing time taken to do last render
+	QString renderTime_;
+
+	protected:
+	// Initialise context widget (when created by Qt)
+	void initializeGL();
+	// General repaint callback
+	void paintGL();
+	// Resize function
+	void resizeGL(int, int);
+
+	private:
+	// Setup basic GL properties
+	void setupGL();
+
+	public:
+	// Return the current height of the drawing area
+	GLsizei contextHeight() const;
+	// Return the current width of the drawing area
+	GLsizei contextWidth() const;
+	// Return aspect ratio of the drawing area
+	double aspectRatio();
+	// Probe widget/context/format features
+	void probeFeatures();
+	// Check for GL error
+	void checkGlError();
+	// Refresh widget / scene
+	void postRedisplay();
+};
+
+#endif

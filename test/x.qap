@@ -1,0 +1,15 @@
+Title  'NewQuiz'
+QuestionSet  'Choc X-Section'
+  Question
+    TextAnswer  'Snickers'
+    TextQuestion  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2014/quizbits/choc/snickers.jpg'
+    ImageAnswer  '/home/tris/doc/isis/student_meeting_2014/quizbits/choc/snickers.jpg'
+  End
+End
+Segment
+  Name  'Picture Round 1 - ChocX'
+  Type  Question
+  QuestionSource  'Choc X-Section'
+  ShortName  'ChocX'
+End

@@ -1,0 +1,383 @@
+Title  'NewQuiz'
+Team  'Evil Organisers'
+Team  'Test Team'
+Team  'Fuck Team'
+Team  'Bitch Team'
+Team  'Team Parsons'
+Team  'GrowlerBots'
+Team  'New Team 7'
+Team  'Number Eight'
+QuestionSet  'Lullabies'
+  Question
+    TextAnswer  'Livin On A Prayer - Bon Jovi'
+    TextQuestion  'Livin On A Prayer - Bon Jovi'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/livinonaprayer.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'Parklife - Blur'
+    TextQuestion  'Parklife - Blur'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/parklife.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'Another One Bites The Dust - Queen'
+    TextQuestion  'Another One Bites The Dust - Queen'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/anotheronebitesthedust.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'Beat It - Michael Jackson'
+    TextQuestion  ''
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/beatit.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'Material Girl - Madonna'
+    TextQuestion  'Material Girl - Madonna'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/materialgirl.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'Gold Digger - Kanye West'
+    TextQuestion  'Gold Digger - Kanye West'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/golddigger.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'Sweet Child O Mine - Guns and Roses'
+    TextQuestion  'Sweet Child O Mine - Guns and Roses'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/sweetchildomine.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'No Woman No Cry - Bob Marley'
+    TextQuestion  'No Woman No Cry - Bob Marley'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/nowomannocry.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'Paranoid Android - Radiohead'
+    TextQuestion  'Paranoid Android - Radiohead'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/paranoidandroid.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+  Question
+    TextAnswer  'I Cant Get No Satisfaction - Rolling Stones'
+    TextQuestion  'I Cant Get No Satisfaction - Rolling Stones'
+    AudioQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/lullaby/icantgetnosatisfaction.wav'
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/audio-icon.png'
+    ImageAnswer  ''
+  End
+End
+QuestionSet  'Film'
+  Question
+    TextAnswer  ''
+    TextQuestion  ''
+    AudioQuestion  ''
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/guardians-of-the-galaxy.jpg'
+    ImageAnswer  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/guardians-of-the-galaxy.jpg'
+  End
+  Question
+    TextAnswer  ''
+    TextQuestion  ''
+    AudioQuestion  ''
+    AudioAnswer  ''
+    ImageQuestion  ''
+    ImageAnswer  ''
+  End
+End
+QuestionSet  'Pot Luck'
+  Question
+    TextAnswer  'On which brand of car would you find this type of ornament?'
+    TextQuestion  'Rolls Royce (Spirit of Ecstasy)'
+    AudioQuestion  ''
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/spirit.jpg'
+    ImageAnswer  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/spirit.jpg'
+  End
+  Question
+    TextAnswer  ''
+    TextQuestion  ''
+    AudioQuestion  ''
+    AudioAnswer  ''
+    ImageQuestion  ''
+    ImageAnswer  ''
+  End
+End
+QuestionSet  'Connections'
+  Question
+    TextAnswer  ''
+    TextQuestion  ''
+    AudioQuestion  ''
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/actors.jpg'
+    ImageAnswer  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/actors.jpg'
+  End
+  Question
+    TextAnswer  ''
+    TextQuestion  ''
+    AudioQuestion  ''
+    AudioAnswer  ''
+    ImageQuestion  ''
+    ImageAnswer  ''
+  End
+End
+QuestionSet  'Countries'
+  Question
+    TextAnswer  ''
+    TextQuestion  ''
+    AudioQuestion  ''
+    AudioAnswer  ''
+    ImageQuestion  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/flag.jpg'
+    ImageAnswer  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/flag.jpg'
+  End
+  Question
+    TextAnswer  ''
+    TextQuestion  ''
+    AudioQuestion  ''
+    AudioAnswer  ''
+    ImageQuestion  ''
+    ImageAnswer  ''
+  End
+End
+QuestionSet  'Naughties'
+End
+Segment
+  Image  '/home/tris/doc/isis/student_meeting_2015/quiz/picturequestions/matthew-macfayden.jpg'
+  Name  'Main Title'
+  Type  Title
+  QuestionSource  'Lullabies'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  '2015'
+  TitleText  'ISIS Student Meeting Quiz'
+End
+Segment
+  Image  ''
+  Name  'Anagrams'
+  NonVisual
+  Type  Question
+  Score  'Evil Organisers' 2.000000
+  Score  'Test Team' 3.000000
+  Score  'Fuck Team' 5.000000
+  Score  'Bitch Team' 6.000000
+  Score  'Team Parsons' 5.000000
+  Score  'GrowlerBots' 5.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Anagrams (Hidden)'
+End
+Segment
+  Image  ''
+  Name  'Pot Luck'
+  Type  Question
+  QuestionSource  'Pot Luck'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 5.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 6.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 4.000000
+  SubText  ''
+  TitleText  'Round 1 - Pot Luck'
+End
+Segment
+  Image  ''
+  Name  'Connections'
+  Type  Question
+  QuestionSource  'Connections'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 1.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 3.000000
+  Score  'New Team 7' 4.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Round 2 - Connections'
+End
+Segment
+  Image  ''
+  Name  'Blank 1'
+  Type  Title
+  QuestionSource  'Lullabies'
+  SubText  ''
+  TitleText  ''
+End
+Segment
+  Image  ''
+  Name  'Scores A'
+  Type  Score
+  QuestionSource  'Lullabies'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Scores'
+End
+Segment
+  Image  ''
+  Name  'Chocolate'
+  NonVisual
+  Type  Question
+  QuestionSource  'Lullabies'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 2.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Chocolate'
+End
+Segment
+  Image  ''
+  Name  'Film'
+  Type  Question
+  QuestionSource  'Film'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Round 3 - Film'
+End
+Segment
+  Image  '/home/tris/doc/isis/student_meeting_2015/quiz/baby_rock.jpg'
+  Name  'Lullabies'
+  Type  Question
+  QuestionSource  'Lullabies'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Round 4 - Lullabies'
+End
+Segment
+  Image  ''
+  Name  'Scores B'
+  Type  Score
+  QuestionSource  'Lullabies'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Scores'
+End
+Segment
+  Image  ''
+  Name  'Aerial Cities'
+  NonVisual
+  Type  Question
+  QuestionSource  'Lullabies'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Aerial Cities'
+End
+Segment
+  Image  ''
+  Name  'Naughties'
+  Type  Question
+  QuestionSource  'Naughties'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Round 5 - Naughties'
+End
+Segment
+  Image  ''
+  Name  'Countries'
+  Type  Title
+  QuestionSource  'Lullabies'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Round 6 - Countries'
+End
+Segment
+  Image  ''
+  Name  'Scores Final'
+  Type  Score
+  QuestionSource  'Lullabies'
+  Score  'Evil Organisers' 0.000000
+  Score  'Test Team' 0.000000
+  Score  'Fuck Team' 0.000000
+  Score  'Bitch Team' 0.000000
+  Score  'Team Parsons' 0.000000
+  Score  'GrowlerBots' 0.000000
+  Score  'New Team 7' 0.000000
+  Score  'Number Eight' 0.000000
+  SubText  ''
+  TitleText  'Final Scores'
+End
